@@ -1,3 +1,3 @@
 # Pestalozzi & eNVenta REST-API
 
-In diesem Repository werden die Endpunkte für die neue Haustechnik App beschrieben
+This repository is used for the description of the Pestalozzi Haustechnik App interface
