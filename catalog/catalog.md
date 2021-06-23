@@ -12,7 +12,7 @@ This endpoint allows you to get all the categories
 
 **Permissions required** : No
 
-**Query parameters** : Default filters
+**Query parameters** : No
 
 ### Success Response
 
@@ -23,7 +23,12 @@ This endpoint allows you to get all the categories
 **Content example**
 
 ```json
-// TODO
+[{...}]
+```
+
+Since the json file can be very large, use a suitable tool like wget to download it:
+```
+wget http://{{url}}/PL1APIHost/catalog-categories -O catalog-categories.json
 ```
 
 **or**
@@ -52,7 +57,7 @@ This endpoint returns all items contained in the catalog
 
 **Permissions required** : No
 
-**Query parameters** : Default filters
+**Query parameters** : No
 
 ### Success Response
 
@@ -63,7 +68,12 @@ This endpoint returns all items contained in the catalog
 **Content example**
 
 ```json
-// TODO
+[{...}]
+```
+
+Since the json file can be very large, use a suitable tool like wget to download it:
+```
+wget http://{{url}}/PL1APIHost/catalog-articles -O catalog-articles.json
 ```
 
 **or**
