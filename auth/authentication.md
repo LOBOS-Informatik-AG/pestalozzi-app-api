@@ -48,8 +48,7 @@ The username and password field is required to successfully login
         "sPhone": "",
         "sUserName": "info@lobos.ch",
         "shtLanguageID": 1
-    },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImluZm9AbG9ib3MuY2giLCJzU2Vzc2lvbklEIjoiM2FlYmIxY2QxMzEyNGQ0NzhiZmU0Yzc5ZmRlYzkwNTciLCJuYmYiOjE2MDE0NDk2NDUsImV4cCI6MTYwMTQ1MDI0NSwiaWF0IjoxNjAxNDQ5NjQ1fQ.RQmh5TOk3QbSIJr8TeKHLE4JRJTEWmIlX8dm8g-3S90"
+    }
 }
 ```
 
