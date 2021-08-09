@@ -4,7 +4,7 @@ Authentication is the verification of the credentials of the connection attempt.
 
 ## Login
 
-This endpoint allows you to get an authentication token by providing the user credentials
+This endpoint allows you to get a user by providing the user credentials
 
 **URL** : `/auth/login/`
 

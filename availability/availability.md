@@ -8,7 +8,7 @@ This endpoint allows you to get the stock information for an article
 
 **Method** : <img src="https://img.shields.io/badge/GET%20-%23323330.svg?&style=flat&color=green"/>
 
-**Auth required** : Yes
+**Auth required** : Yes (HeaderParam: contactid)
 
 **Permissions required** : No
 
