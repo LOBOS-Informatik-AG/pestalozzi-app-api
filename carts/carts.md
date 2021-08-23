@@ -10,7 +10,7 @@ This endpoint allows you to create a cart
 
 **Auth required** : Yes
 
-**Permissions required** : No
+**Permissions required** : Nooooo
 
 **Body**
 
