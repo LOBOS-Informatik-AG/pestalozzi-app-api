@@ -358,3 +358,59 @@ This endpoint allows you create a cart-item
     "shtQuantityUnit": null
 }
 ```
+## Submit carts
+
+This endpoint allows you to submit a cart
+
+**URL** : `/carts/:id/submit`
+
+**Method** : <img src="https://img.shields.io/badge/GET%20-%23323330.svg?&style=flat&color=green"/>
+
+**Auth required** : Yes
+
+**Permissions required** : No
+
+### Success Response
+
+**Condition** : If carts are found and submitted.
+
+**Code** : `200 OK`
+
+**Content example**
+
+```json
+[
+    "errorLevel": 2,
+    "text": "Warenkorb angelegt"
+]
+```
+
+**or**
+
+**Condition** : cart allready submitted.
+
+**Code** : `500 Internal Server Error`
+
+**Content example**
+
+```json
+{
+    "errorLevel": 2,
+    "text": "Warenkorb bereits versendet"
+}
+```
+
+**or**
+
+**Condition** : no cart found.
+
+**Code** : `200 OK`
+
+**Content example**
+
+```json
+{
+    "errorLevel": 2,
+    "text": "Warenkorb nicht gefunden"
+}
+```
