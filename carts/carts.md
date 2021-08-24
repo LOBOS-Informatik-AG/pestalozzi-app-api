@@ -212,7 +212,7 @@ This endpoint allows you create a cart-item
             "decDiscountPercent": 0.00,
             "decDiscountValue": null,
             "lngDiscountID": null,
-            "sDicountFlag": "",
+            "sDiscountFlag": "",
             "sDiscountText": "",
             "sDiscountType": ""
         },
@@ -221,7 +221,7 @@ This endpoint allows you create a cart-item
             "decDiscountPercent": 0.00,
             "decDiscountValue": null,
             "lngDiscountID": null,
-            "sDicountFlag": "",
+            "sDiscountFlag": "",
             "sDiscountText": "",
             "sDiscountType": ""
         },
@@ -230,7 +230,7 @@ This endpoint allows you create a cart-item
             "decDiscountPercent": 0.00,
             "decDiscountValue": null,
             "lngDiscountID": null,
-            "sDicountFlag": "",
+            "sDiscountFlag": "",
             "sDiscountText": "",
             "sDiscountType": ""
         },
@@ -239,7 +239,7 @@ This endpoint allows you create a cart-item
             "decDiscountPercent": 0.00,
             "decDiscountValue": null,
             "lngDiscountID": null,
-            "sDicountFlag": "",
+            "sDiscountFlag": "",
             "sDiscountText": "",
             "sDiscountType": ""
         },
@@ -248,7 +248,7 @@ This endpoint allows you create a cart-item
             "decDiscountPercent": 0.00,
             "decDiscountValue": null,
             "lngDiscountID": null,
-            "sDicountFlag": "",
+            "sDiscountFlag": "",
             "sDiscountText": "",
             "sDiscountType": ""
         },
@@ -257,7 +257,7 @@ This endpoint allows you create a cart-item
             "decDiscountPercent": 0.00,
             "decDiscountValue": null,
             "lngDiscountID": null,
-            "sDicountFlag": "",
+            "sDiscountFlag": "",
             "sDiscountText": "",
             "sDiscountType": ""
         },
@@ -298,7 +298,7 @@ This endpoint allows you create a cart-item
         "decDiscountPercent": 30.00,
         "decDiscountValue": 5.57,
         "lngDiscountID": 661316,
-        "sDicountFlag": "",
+        "sDiscountFlag": "",
         "sDiscountText": "",
         "sDiscountType": "K"
     },
@@ -307,7 +307,7 @@ This endpoint allows you create a cart-item
         "decDiscountPercent": 0.00,
         "decDiscountValue": null,
         "lngDiscountID": null,
-        "sDicountFlag": "",
+        "sDiscountFlag": "",
         "sDiscountText": "",
         "sDiscountType": ""
     },
@@ -316,7 +316,7 @@ This endpoint allows you create a cart-item
         "decDiscountPercent": 0.00,
         "decDiscountValue": null,
         "lngDiscountID": null,
-        "sDicountFlag": "",
+        "sDiscountFlag": "",
         "sDiscountText": "",
         "sDiscountType": ""
     },
@@ -325,7 +325,7 @@ This endpoint allows you create a cart-item
         "decDiscountPercent": 0.00,
         "decDiscountValue": null,
         "lngDiscountID": null,
-        "sDicountFlag": "",
+        "sDiscountFlag": "",
         "sDiscountText": "",
         "sDiscountType": ""
     },
@@ -334,7 +334,7 @@ This endpoint allows you create a cart-item
         "decDiscountPercent": 0.00,
         "decDiscountValue": null,
         "lngDiscountID": null,
-        "sDicountFlag": "",
+        "sDiscountFlag": "",
         "sDiscountText": "",
         "sDiscountType": ""
     },
@@ -343,7 +343,7 @@ This endpoint allows you create a cart-item
         "decDiscountPercent": 0.00,
         "decDiscountValue": null,
         "lngDiscountID": null,
-        "sDicountFlag": "",
+        "sDiscountFlag": "",
         "sDiscountText": "",
         "sDiscountType": ""
     },
