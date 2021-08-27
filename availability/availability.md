@@ -6,6 +6,10 @@ This endpoint allows you to get the stock information for an article
 
 **URL** : `/stock-availability/:id`
 
+This endpoint allows you also to get the stock information for an list of articles
+
+**URL** : `/stock-availability/:id,:id,:id`
+
 **Method** : <img src="https://img.shields.io/badge/GET%20-%23323330.svg?&style=flat&color=green"/>
 
 **Auth required** : Yes (HeaderParam: contactid)
