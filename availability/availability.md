@@ -12,7 +12,7 @@ This endpoint allows you also to get the stock information for an list of articl
 
 **Method** : <img src="https://img.shields.io/badge/GET%20-%23323330.svg?&style=flat&color=green"/>
 
-**Auth required** : Yes (HeaderParam: contactid)
+**Auth required** : No
 
 **Permissions required** : No
 
@@ -28,23 +28,28 @@ This endpoint allows you also to get the stock information for an list of articl
 
 ```json
 [
-    {
-        "bIsCommercePartsList": false,
-        "decQuantityAvailable": 0.000,
-        "decQuantityAvailablePlan": 0.000,
-        "decQuantityInProduction": null,
-        "decQuantityOrdered": 0,
-        "decQuantityReserved": 0,
-        "decQuantityStockLevel": 0.000,
-        "decReferenceQuantity": null,
-        "decReplacementTime": null,
-        "oStorageList": null,
-        "sArticleID": "0101008H",
-        "sQuantityUnit": "Stk",
-        "sStorageGroupID": "",
-        "shtStorageID": 1
-    },
-    ...
+  {
+    "bIsCommercePartsList": false,
+    "bPL1CentralStorage": true,
+    "decPL1DummyStockLevel": null,
+    "decQuantityAvailable": 0.000,
+    "decQuantityAvailablePlan": 0.000,
+    "decQuantityInProduction": null,
+    "decQuantityOrdered": 0,
+    "decQuantityReserved": 0,
+    "decQuantityStockLevel": 0.000,
+    "decReferenceQuantity": null,
+    "decReplacementTime": 42.37,
+    "oStorageList": null,
+    "sArticleID": "30510000100000050000",
+    "sPL1AdditionalInfo": "Kein Lagerartikel.<br> Lieferfrist auf Anfrage 044 743 23 50",
+    "sQuantityUnit": "SK",
+    "sStorageGroupID": "",
+    "sStorageLocationCity": "Dietikon",
+    "shtPlanningCode": 5,
+    "shtStorageID": 50
+  },
+  ...
 ]
 ```
 
@@ -56,7 +61,7 @@ This endpoint allows you also to get the stock information for an list of articl
 
 ```json
 {
-    "text": "No stock information found"
+  "text": "No stock information found"
 }
 ```
 
@@ -68,7 +73,7 @@ This endpoint allows you to get the stock information for a list of articles
 
 **Method** : <img src="https://img.shields.io/badge/POST%20-%23323330.svg?&style=flat&color=blue"/>
 
-**Auth required** : Yes (HeaderParam: contactid)
+**Auth required** : No
 
 **Permissions required** : No
 
@@ -88,23 +93,28 @@ ID1,ID2,ID3
 
 ```json
 [
-    {
-        "bIsCommercePartsList": false,
-        "decQuantityAvailable": 0.000,
-        "decQuantityAvailablePlan": 0.000,
-        "decQuantityInProduction": null,
-        "decQuantityOrdered": 0,
-        "decQuantityReserved": 0,
-        "decQuantityStockLevel": 0.000,
-        "decReferenceQuantity": null,
-        "decReplacementTime": null,
-        "oStorageList": null,
-        "sArticleID": "0101008H",
-        "sQuantityUnit": "Stk",
-        "sStorageGroupID": "",
-        "shtStorageID": 1
-    },
-    ...
+  {
+    "bIsCommercePartsList": false,
+    "bPL1CentralStorage": true,
+    "decPL1DummyStockLevel": null,
+    "decQuantityAvailable": 0.000,
+    "decQuantityAvailablePlan": 0.000,
+    "decQuantityInProduction": null,
+    "decQuantityOrdered": 0,
+    "decQuantityReserved": 0,
+    "decQuantityStockLevel": 0.000,
+    "decReferenceQuantity": null,
+    "decReplacementTime": 42.37,
+    "oStorageList": null,
+    "sArticleID": "30510000100000050000",
+    "sPL1AdditionalInfo": "Kein Lagerartikel.<br> Lieferfrist auf Anfrage 044 743 23 50",
+    "sQuantityUnit": "SK",
+    "sStorageGroupID": "",
+    "sStorageLocationCity": "Dietikon",
+    "shtPlanningCode": 5,
+    "shtStorageID": 50
+  },
+  ...
 ]
 ```
 
@@ -116,6 +126,6 @@ ID1,ID2,ID3
 
 ```json
 {
-    "text": "No stock information found"
+  "text": "No stock information found"
 }
 ```
