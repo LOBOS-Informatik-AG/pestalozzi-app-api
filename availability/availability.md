@@ -62,7 +62,7 @@ This endpoint allows you also to get the stock information for an list of articl
 
 ## Post article (stock) availability
 
-This endpoint allows you to get the stock information for list of articles
+This endpoint allows you to get the stock information for a list of articles
 
 **URL** : `/stock-availability/`
 
