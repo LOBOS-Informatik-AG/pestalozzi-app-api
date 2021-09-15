@@ -218,7 +218,7 @@ This endpoint allows you to submit a cart
 
 **URL** : `/carts/:id/submit`
 
-**Method** : <img src="https://img.shields.io/badge/GET%20-%23323330.svg?&style=flat&color=green"/>
+**Method** : <img src="https://img.shields.io/badge/PUT%20-%23323330.svg?&style=flat&color=yellow"/>
 
 **Auth required** : Yes
 
