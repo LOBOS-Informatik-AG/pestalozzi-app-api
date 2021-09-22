@@ -182,6 +182,69 @@ This endpoint allows you to create a cart
     "shtShippingConditionID": 1
 }
 ```
+## Update cart
+
+This endpoint allows you to update a cart
+
+**URL** : `/carts/:id`
+
+**Method** : <img src="https://img.shields.io/badge/PUT%20-%23323330.svg?&style=flat&color=yellow"/>
+
+**Auth required** : Yes
+
+**Permissions required** : No
+
+**Body**
+
+``` json
+{
+    ...
+}
+```
+
+### Success Response
+
+**Condition** : If the cart is successfully updated.
+
+**Code** : `200 OK`
+
+**Content example**
+
+```json
+{
+    ...
+}
+```
+
+## Delete cart
+
+This endpoint allows you to delete a cart
+
+**URL** : `/carts/:id`
+
+**Method** : <img src="https://img.shields.io/badge/DELETE%20-%23323330.svg?&style=flat&color=red"/>
+
+**Auth required** : Yes
+
+**Permissions required** : No
+
+**Body**
+
+``` json
+None
+```
+
+### Success Response
+
+**Condition** : If the cart is deleted successfully.
+
+**Code** : `200 OK`
+
+**Content example**
+
+```json
+None
+```
 ## Get cart-items
 
 This endpoint allows you to get all the cart-items
@@ -328,6 +391,70 @@ This endpoint allows you create a cart-item
     "shtItemID": 1,
     "shtQuantityUnit": null
 }
+```
+
+## Update cart-item
+
+This endpoint allows you to update a item
+
+**URL** : `/carts/:id/items/:id`
+
+**Method** : <img src="https://img.shields.io/badge/PUT%20-%23323330.svg?&style=flat&color=yellow"/>
+
+**Auth required** : Yes
+
+**Permissions required** : No
+
+**Body**
+
+``` json
+{
+    ...
+}
+```
+
+### Success Response
+
+**Condition** : If the cart is updated successfully.
+
+**Code** : `200 OK`
+
+**Content example**
+
+```json
+{
+    ...
+}
+```
+
+## Delete cart-item
+
+This endpoint allows you to delete a cart-item
+
+**URL** : `/carts/:id/items/:id`
+
+**Method** : <img src="https://img.shields.io/badge/DELETE%20-%23323330.svg?&style=flat&color=red"/>
+
+**Auth required** : Yes
+
+**Permissions required** : No
+
+**Body**
+
+``` json
+None
+```
+
+### Success Response
+
+**Condition** : If the cart-item is deleted successfully.
+
+**Code** : `200 OK`
+
+**Content example**
+
+```json
+None
 ```
 ## Submit carts
 
