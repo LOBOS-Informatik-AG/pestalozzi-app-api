@@ -393,6 +393,129 @@ This endpoint allows you create a cart-item
 }
 ```
 
+## Create cart-items
+
+This endpoint allows you create cart-items (bulk)
+
+**URL** : `/carts/:id/items/all`
+
+**Method** : <img src="https://img.shields.io/badge/POST%20-%23323330.svg?&style=flat&color=blue"/>
+
+**Auth required** : Yes
+
+**Permissions required** : No
+
+**Body**
+
+``` json
+[
+    {
+
+            "sArticleID": "32113000010000004000",
+            "sQuantityUnit": "SK",
+            "decQutantity": 1
+    },
+    {
+
+            "sArticleID": "32113000010000004000",
+            "sQuantityUnit": "SK",
+            "decQutantity": 2
+    },
+    {
+
+            "sArticleID": "32113000010000004000",
+            "sQuantityUnit": "SK",
+            "decQutantity": 4
+    }
+]
+```
+
+### Success Response
+
+**Condition** : If the item is succesfully created.
+
+**Code** : `200 OK`
+
+**Content example**
+
+```json
+{
+    "decItemGrossAmount": 13.00,
+    "decItemNetAmount": 13.00,
+    "decItemTaxAmount": 0,
+    "decPriceFactor": null,
+    "decQuantity": 7.000,
+    "decSalesPrice": 2.65,
+    "decTaxRate": null,
+    "lngCartID": 20210816267,
+    "lngSalesPriceUnit": 1,
+    "oArticle": null,
+    "oDiscount1": {
+        "decDiscountAmount": 0,
+        "decDiscountPercent": 30.00,
+        "decDiscountValue": 5.57,
+        "lngDiscountID": 661316,
+        "sDiscountFlag": "",
+        "sDiscountText": "",
+        "sDiscountType": "K"
+    },
+    "oDiscount2": {
+        "decDiscountAmount": null,
+        "decDiscountPercent": 0.00,
+        "decDiscountValue": null,
+        "lngDiscountID": null,
+        "sDiscountFlag": "",
+        "sDiscountText": "",
+        "sDiscountType": ""
+    },
+    "oDiscount3": {
+        "decDiscountAmount": null,
+        "decDiscountPercent": 0.00,
+        "decDiscountValue": null,
+        "lngDiscountID": null,
+        "sDiscountFlag": "",
+        "sDiscountText": "",
+        "sDiscountType": ""
+    },
+    "oDiscount4": {
+        "decDiscountAmount": null,
+        "decDiscountPercent": 0.00,
+        "decDiscountValue": null,
+        "lngDiscountID": null,
+        "sDiscountFlag": "",
+        "sDiscountText": "",
+        "sDiscountType": ""
+    },
+    "oDiscount5": {
+        "decDiscountAmount": null,
+        "decDiscountPercent": 0.00,
+        "decDiscountValue": null,
+        "lngDiscountID": null,
+        "sDiscountFlag": "",
+        "sDiscountText": "",
+        "sDiscountType": ""
+    },
+    "oDiscount6": {
+        "decDiscountAmount": null,
+        "decDiscountPercent": 0.00,
+        "decDiscountValue": null,
+        "lngDiscountID": null,
+        "sDiscountFlag": "",
+        "sDiscountText": "",
+        "sDiscountType": ""
+    },
+    "sArticleID": "32113000010000004000",
+    "sArticleName": "7001  15 Bogen 90°",
+    "sExtItemID": "",
+    "sItemText": "",
+    "sQuantityUnit": "SK",
+    "shtCartDetailStatus": 2,
+    "shtHasAdditionalItems": null,
+    "shtItemID": 1,
+    "shtQuantityUnit": null
+}
+```
+
 ## Update cart-item
 
 This endpoint allows you to update a item
